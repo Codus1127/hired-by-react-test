@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 500px;
+  height: 200px;
+  border: 1px solid rgba(230, 230, 230, 0.308);
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.171);
+  margin: auto;
+  justify-content: space-between;
+  position: relative;
+  padding: 20px;
+  background-color: rgba(233, 233, 233, 0.5);
+  margin-top: 30px;
+}
+h3 { 
+  margin: 0px;
+  font-size: 1rem;
+  color: rgb(28, 28, 146)
 }
 
-.App-link {
-  color: #61dafb;
+h4 { 
+  margin: 20px, 0px;
+  font-size: .8rem;
+  color: rgb(28, 28, 146)
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+textarea {
+  max-width:494px;
+  min-width: 494px;
+  min-height: 75px;
+  max-height: 75px;
+  overflow-y: scroll;
+  border: none;
+}
+
+input {
+   width: 492px;
+   border: none;
+   padding: 5px;
+}
+
+button {
+  width: 100px;
+  height: 25px;
+}
+
+.post {
+ width: 500px;
+ height: auto;
+ padding: 20px;
+ margin: auto;
+ margin-top: 30px;
+ position: relative;
+ border: 1px solid rgb(230, 230, 230, .3);
+ background-color: rgba(233, 233, 233, 0.5);
+ box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.171);
+ text-align: left;
+}
+
+.delete {
+  position: absolute;
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  font-size: 1rem;
+  top: 20px;
+  right: 0;
+  color: grey;
 }
