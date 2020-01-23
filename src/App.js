@@ -14,6 +14,8 @@ class App extends Component {
     this.handleAddTask = this.handleAddTask.bind(this);
   }
 
+//this is what makes a cope of the spread of list, creates the new post with the title and input fields, creates a new time string and also clears both input fields on click of the button.
+
   handleAddTask() {
     this.setState({
       list: [
